@@ -19,7 +19,7 @@ A sophisticated AI-powered PDF assistant that leverages OpenAI embeddings and Po
 
 ### 1. Clone Repository
 git clone https://github.com/umairmohsin/PDF_Assistant_Agent.git
-cd PDF_Assistant_Agent
+-cd PDF_Assistant_Agent
 
 ### 2. Install Dependencies
 python -m venv venv
