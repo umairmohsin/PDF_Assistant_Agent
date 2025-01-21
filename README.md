@@ -30,8 +30,17 @@ A sophisticated AI-powered PDF assistant that leverages OpenAI embeddings and Po
 Create a `.env` file in project root:
 
 ### 4. Database Configuration
-- Create PostgreSQL database named `ai`
-- Update `db_url` in `app.py` if needed
+- You can run this Docker command to setup the postgres database:
+docker run -d \
+  -e POSTGRES_DB=ai \
+  -e POSTGRES_USER=ai \
+  -e POSTGRES_PASSWORD=ai \
+  -e PGDATA=/var/lib/postgresql/data/pgdata \
+  -v pgvolume:/var/lib/postgresql/data \
+  -p 5532:5432 \
+  --name pgvector \
+  phidata/pgvector:16
+
 
 ## 🖥 Usage
 Install Requirements (pip install -r requirements.txt) 
