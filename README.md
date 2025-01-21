@@ -1,4 +1,4 @@
-# PDF Assistant
+# PDF Assistant Agent 
 
 ## Overview
 A sophisticated AI-powered PDF assistant that leverages OpenAI embeddings and PostgreSQL for intelligent document interaction.
