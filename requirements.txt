@@ -1,4 +1,11 @@
-streamlit
-openai
 phidata
 duckduckgo-search
+fastapi
+uvicorn
+groq
+sqlalchemy
+pgvector
+psycopg[binary]
+pypdf
+phi-ai
+python-dotenv
