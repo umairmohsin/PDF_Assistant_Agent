@@ -18,17 +18,16 @@ A sophisticated AI-powered PDF assistant that leverages OpenAI embeddings and Po
 ## 📦 Installation
 
 ### 1. Clone Repository
-git clone https://github.com/umairmohsin/PDF_Assistant_Agent.git
--cd PDF_Assistant_Agent
+- git clone https://github.com/umairmohsin/PDF_Assistant_Agent.git
+- cd PDF_Assistant_Agent
 
 ### 2. Install Dependencies
-python -m venv venv
-source venv/bin/activate # On Windows use venv\Scripts\activate
-pip install -r requirements.txt
+- python -m venv venv
+- source venv/bin/activate # On Windows use venv\Scripts\activate
+- pip install -r requirements.txt
 
 ### 3. Environment Setup
 Create a `.env` file in project root:
-
 
 ### 4. Database Configuration
 - Create PostgreSQL database named `ai`
