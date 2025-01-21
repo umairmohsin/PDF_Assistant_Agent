@@ -43,6 +43,6 @@ docker run -d \
 
 
 ## 🖥 Usage
-Install Requirements (pip install -r requirements.txt) 
-Run assistant
-python app.py
+- Install Requirements (pip install -r requirements.txt) 
+- Run assistant
+- python app.py
